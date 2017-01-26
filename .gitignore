@@ -7,3 +7,6 @@ npm-debug.log
 bundles
 typings
 demoRC5
+/compiled
+*.metadata.json
+*.ngFactory.ts

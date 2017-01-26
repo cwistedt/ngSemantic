@@ -11,13 +11,14 @@ var config = {
     },
     map: {
         "typescript": './node_modules/typescript/lib/typescript.js',
-        "@angular": path.resolve('node_modules/@angular')
+        "@angular": './node_modules/@angular',
+        "rxjs": './node_modules/rxjs'
     },
     paths: {
         '*': '*.js'
     },
     meta: {
-        'node_modules/@angular/*': { build: false }
+        './node_modules/@angular/*': { build: false }
     }
 };
 
