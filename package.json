@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vladotesanovic/ngSemantic"
+    "url": "https://github.com/fpmk/ngSemantic"
   },
   "engines": {
     "node": ">= 5.4.1 < 6"
