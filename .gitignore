@@ -9,3 +9,4 @@ typings
 demoRC5
 /compiled
 *.ngsummary.json
+*.iml

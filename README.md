@@ -9,6 +9,8 @@
   <a href="http://www.angular.io" target="_blank">Angular2</a> - <a href="http://semantic-ui.com" target="_blank">Semantic UI</a>
 </p>
 
+This is temporary version of Vlado Tesanovic's ng components. Will delete it when AOT appears on it's repo. 
+
 ## Live demo
 <a href="https://ng-semantic.herokuapp.com" target="_blank">ng-semantic.herokuapp.com</a>
 
