@@ -22,8 +22,8 @@ export declare class SemanticCheckboxComponent {
     value: string | number;
     name: string;
     type: string;
-    private inputType;
-    private classType;
+    public inputType;
+    public classType;
 }
 export declare class SemanticTextareaComponent {
     control: FormControl;
