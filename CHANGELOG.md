@@ -1,3 +1,9 @@
+## version: 1.1.13
+
+- Angular 2 ( final version )
+- improvements in project layout structure
+- improvements in sm-modal component
+
 ## version: 1.1.2
 
 - Update to RC.6.
