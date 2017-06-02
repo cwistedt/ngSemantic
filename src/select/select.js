@@ -8,6 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var forms_1 = require("@angular/forms");
 var SemanticSelectComponent = (function () {
@@ -110,7 +111,6 @@ SemanticSelectComponent = __decorate([
         changeDetection: core_1.ChangeDetectionStrategy.OnPush,
         selector: "sm-select",
         template: "<div class=\"field\" [ngClass]=\"{error: (!control?.valid && control?.touched) }\">\n  <label *ngIf=\"label\">{{label}}</label>\n<select [formControl]=\"control\" class=\"ui {{class}} dropdown\"  #select>\n    <option value=\"\">{{placeholder}}</option>\n    <ng-content></ng-content>\n</select>\n</div>"
-    }),
-    __metadata("design:paramtypes", [])
+    })
 ], SemanticSelectComponent);
 exports.SemanticSelectComponent = SemanticSelectComponent;

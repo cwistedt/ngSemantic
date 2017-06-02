@@ -10,7 +10,7 @@ export declare class SemanticInputComponent implements OnInit {
     model: {};
     control: FormControl;
     modelChange: EventEmitter<string | number>;
-    public isInsideForm;
+    private isInsideForm;
     constructor(viewRef: ViewContainerRef);
     ngOnInit(): void;
     inForm(el: Node, classname: string): boolean;
@@ -22,8 +22,8 @@ export declare class SemanticCheckboxComponent {
     value: string | number;
     name: string;
     type: string;
-    public inputType;
-    public classType;
+    private inputType;
+    private classType;
 }
 export declare class SemanticTextareaComponent {
     control: FormControl;
